@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance Example</title>
+    <style>
+        /* Style for the parent element */
+        .parent {
+            color: blue; /* Inherited */
+            font-family: Arial, sans-serif; /* Inherited */
+            font-size: 16px; /* Inherited */
+            text-align: center; /* Inherited */
+        }
+
+        /* Style for the child element */
+        .child {
+         /* Overrides inherited color */
+            font-style: italic; /* Specific to child */
+        }
+    </style>
+</head>
+<body>
+    <!-- Parent element -->
+    <div class="parent">
+        <p>This is the parent element.</p>
+        <!-- Child element -->
+        <p class="child">This is the child element.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+p{
+    color: rgb(29, 11, 11);
+    font-size: ;
+}
+body{
+    background-color: rgb(87, 76, 76) ;
+    font-size: 34px;
+}
+#fh{
+    color: rgb(250, 248, 248);
+    background-color:rgb(167, 167, 18);
+}
+
+.sh{
+    color:green;
+    background-color: #b3ffb3;
+    
+}
+.th{
+    color: rgb(250, 248, 248);
+    background-color:inherit;
+}
